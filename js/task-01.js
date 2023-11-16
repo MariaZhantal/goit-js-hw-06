@@ -12,14 +12,14 @@
 
 
 
-// const items = document.querySelectorAll(".item");
+const items = document.querySelectorAll(".item");
 
-// console.log("Number of Categories: ", items.length);
+console.log("Number of Categories: ", items.length);
 
-// items.forEach(item => {
-//     const header = item.querySelector("h2").textContent;
-//     const listItem = item.querySelectorAll("li");
+items.forEach(item => {
+    const header = item.querySelector("h2").textContent;
+    const listItem = item.querySelectorAll("li");
 
-//     console.log("Category :",header);
-//     console.log("Elements :", listItem.length);
-// });
+    console.log("Category :",header);
+    console.log("Elements :", listItem.length);
+});
